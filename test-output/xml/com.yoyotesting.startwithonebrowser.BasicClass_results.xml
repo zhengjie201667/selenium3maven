@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="回归测试组"
+           tests="2"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="0.121">
+  <properties />
+            <testcase name="beforeSuite" time="0.120" classname="com.yoyotesting.startwithonebrowser.BasicClass">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;SC-202012051647&apos;, ip: &apos;192.168.207.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: driver.version: FirefoxDriver"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SC-202012051647', ip: '192.168.207.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+  org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:116)
+  java.util.Optional.orElseGet(Unknown Source)
+  org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:218)
+  org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:155)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+  org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+  com.yoyotesting.startwithonebrowser.BasicClass.beforeSuite(BasicClass.java:18)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+  org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+  org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:345)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="afterSuite" time="0.001" classname="com.yoyotesting.startwithonebrowser.BasicClass">
+                <failure type="java.lang.NullPointerException"
+                  message="(null)"
+              >
+<![CDATA[java.lang.NullPointerException
+  com.yoyotesting.startwithonebrowser.BasicClass.afterSuite(BasicClass.java:24)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+  org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+  org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:369)
+  org.testng.SuiteRunner.run(SuiteRunner.java:304)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+  org.testng.TestNG.runSuites(TestNG.java:1032)
+  org.testng.TestNG.run(TestNG.java:1000)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

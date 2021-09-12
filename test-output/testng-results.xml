@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47990" started-at="2021-09-12T20:11:25 CST" finished-at="2021-09-12T20:12:13 CST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47990" started-at="2021-09-12T20:11:25 CST" finished-at="2021-09-12T20:12:13 CST">
+      <class name="com.testing.selenium3maven.LoginAndLogoutTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testing.selenium3maven.LoginAndLogoutTestNG@a7e666]" name="setUp" is-config="true" duration-ms="13850" started-at="2021-09-12T20:11:25 CST" finished-at="2021-09-12T20:11:39 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginAndLogout()[pri:0, instance:com.testing.selenium3maven.LoginAndLogoutTestNG@a7e666]" name="loginAndLogout" duration-ms="16729" started-at="2021-09-12T20:11:39 CST" finished-at="2021-09-12T20:11:56 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testing.selenium3maven.LoginAndLogoutTestNG@a7e666]" name="tearDown" is-config="true" duration-ms="1214" started-at="2021-09-12T20:11:56 CST" finished-at="2021-09-12T20:11:57 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.selenium3maven.LoginAndLogoutTestNG -->
+      <class name="com.testing.selenium3maven.OpenWebsiteTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testing.selenium3maven.OpenWebsiteTestNG@68bbe345]" name="setUp" is-config="true" duration-ms="5413" started-at="2021-09-12T20:11:57 CST" finished-at="2021-09-12T20:12:02 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openWebSite()[pri:0, instance:com.testing.selenium3maven.OpenWebsiteTestNG@68bbe345]" name="openWebSite" duration-ms="9908" started-at="2021-09-12T20:12:02 CST" finished-at="2021-09-12T20:12:12 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebSite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testing.selenium3maven.OpenWebsiteTestNG@68bbe345]" name="tearDown" is-config="true" duration-ms="823" started-at="2021-09-12T20:12:12 CST" finished-at="2021-09-12T20:12:13 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testing.selenium3maven.OpenWebsiteTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

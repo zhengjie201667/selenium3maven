@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="回归测试组"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.001">
+  <properties />
+  
+            <testcase name="openWebSite2" time="0.0" classname="com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG2">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

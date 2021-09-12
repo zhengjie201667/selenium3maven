@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19535" started-at="2018-05-20T14:01:04Z" finished-at="2018-05-20T14:01:24Z">
+    <groups>
+      <group name="regression">
+        <method signature="OpenWebsiteTestNG.openWebSite()[pri:0, instance:com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG@19c0f4a]" name="openWebSite" class="com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG"/>
+        <method signature="LoginAndLogoutTestNG.loginAndLogout()[pri:0, instance:com.yoyotesting.startwithonebrowser.LoginAndLogoutTestNG@e92674]" name="loginAndLogout" class="com.yoyotesting.startwithonebrowser.LoginAndLogoutTestNG"/>
+        <method signature="OpenWebsiteTestNG.openWebSite()[pri:0, instance:com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG@85bdee]" name="openWebSite" class="com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG"/>
+        <method signature="OpenWebsiteTestNG2.openWebSite2()[pri:0, instance:com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG2@100d6b1]" name="openWebSite2" class="com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG2"/>
+      </group> <!-- regression -->
+      <group name="smoking">
+        <method signature="OpenWebsiteTestNG.openWebSite()[pri:0, instance:com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG@19c0f4a]" name="openWebSite" class="com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG"/>
+        <method signature="OpenWebsiteTestNG.openWebSite()[pri:0, instance:com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG@85bdee]" name="openWebSite" class="com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG"/>
+        <method signature="OpenWebsiteTestNG2.openWebSite2()[pri:0, instance:com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG2@100d6b1]" name="openWebSite2" class="com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG2"/>
+      </group> <!-- smoking -->
+      <group name="priority1">
+        <method signature="LoginAndLogoutTestNG.loginAndLogout()[pri:0, instance:com.yoyotesting.startwithonebrowser.LoginAndLogoutTestNG@e92674]" name="loginAndLogout" class="com.yoyotesting.startwithonebrowser.LoginAndLogoutTestNG"/>
+      </group> <!-- priority1 -->
+    </groups>
+    <test name="冒烟测试组" duration-ms="4273" started-at="2018-05-20T14:01:04Z" finished-at="2018-05-20T14:01:08Z">
+      <class name="com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG">
+        <test-method status="PASS" signature="openWebSite()[pri:0, instance:com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG@19c0f4a]" name="openWebSite" duration-ms="4219" started-at="2018-05-20T22:01:04Z" finished-at="2018-05-20T22:01:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebSite -->
+      </class> <!-- com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG -->
+    </test> <!-- 冒烟测试组 -->
+    <test name="回归测试组" duration-ms="15226" started-at="2018-05-20T14:01:08Z" finished-at="2018-05-20T14:01:24Z">
+      <class name="com.yoyotesting.startwithonebrowser.LoginAndLogoutTestNG">
+        <test-method status="FAIL" signature="loginAndLogout()[pri:0, instance:com.yoyotesting.startwithonebrowser.LoginAndLogoutTestNG@e92674]" name="loginAndLogout" duration-ms="1114" started-at="2018-05-20T22:01:15Z" finished-at="2018-05-20T22:01:16Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [泛微移动办公云OA(eteams)：一体化的团队协作移动办公云平台1] but found [泛微移动办公云OA(eteams)：一体化的团队协作移动办公云平台]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [泛微移动办公云OA(eteams)：一体化的团队协作移动办公云平台1] but found [泛微移动办公云OA(eteams)：一体化的团队协作移动办公云平台]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at org.testng.Assert.assertEquals(Assert.java:463)at com.yoyotesting.startwithonebrowser.LoginAndLogoutTestNG.loginAndLogout(LoginAndLogoutTestNG.java:28)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.lang.reflect.Method.invoke(Method.java:498)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndLogout -->
+      </class> <!-- com.yoyotesting.startwithonebrowser.LoginAndLogoutTestNG -->
+      <class name="com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG">
+        <test-method status="PASS" signature="openWebSite()[pri:0, instance:com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG@85bdee]" name="openWebSite" duration-ms="7083" started-at="2018-05-20T22:01:08Z" finished-at="2018-05-20T22:01:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebSite -->
+      </class> <!-- com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG -->
+      <class name="com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG2">
+        <test-method status="PASS" signature="openWebSite2()[pri:0, instance:com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG2@100d6b1]" name="openWebSite2" duration-ms="7009" started-at="2018-05-20T22:01:17Z" finished-at="2018-05-20T22:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebSite2 -->
+      </class> <!-- com.yoyotesting.startwithonebrowser.OpenWebsiteTestNG2 -->
+      <class name="com.yoyotesting.startwithonebrowser.BasicClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.yoyotesting.startwithonebrowser.BasicClass@13ad2d6]" name="beforeSuite" is-config="true" duration-ms="19238" started-at="2018-05-20T22:00:45Z" finished-at="2018-05-20T22:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.yoyotesting.startwithonebrowser.BasicClass@13ad2d6]" name="afterSuite" is-config="true" duration-ms="1319" started-at="2018-05-20T22:01:24Z" finished-at="2018-05-20T22:01:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.yoyotesting.startwithonebrowser.BasicClass -->
+    </test> <!-- 回归测试组 -->
+  </suite> <!-- Suite -->
+</testng-results>
